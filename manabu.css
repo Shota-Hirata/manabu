@@ -1,0 +1,655 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#header{
+	width:100%;
+	height: 10vh;
+	background-color: #000;
+	text-align: center;
+}
+
+#header img{
+	width:20vw;
+	height: 8vh;
+	margin-top:1vh;
+}
+
+.section{
+	width: 100%;
+	height:100vh;
+}
+
+.top{
+	width:100%;
+	height:90vh;
+	background: radial-gradient(#0041ff, #00bbff);
+}
+
+.top img{
+	float: left;
+	width:35vw;
+	height: 80vh;
+	margin-top: 5vh;
+	margin-left: 10vw;
+}
+
+.font-top{
+	margin-top:20vh;
+	float: left;
+	width:50vw;
+	text-align :center;
+}
+
+.font-1 {
+  display        : inline-block;
+  color          : #ffffff;            /* 文字の色 */
+  font-size      : 66pt;               /* 文字のサイズ */
+  letter-spacing : 8px;                /* 文字間 */
+  text-shadow    :
+       4px  4px 4px rgba(0, 0, 0, 0.42),
+      -4px  4px 4px rgba(0, 0, 0, 0.42),
+       4px -4px 4px rgba(0, 0, 0, 0.42),
+      -4px -4px 4px rgba(0, 0, 0, 0.42),
+       4px  0px 4px rgba(0, 0, 0, 0.42),
+       0px  4px 4px rgba(0, 0, 0, 0.42),
+      -4px  0px 4px rgba(0, 0, 0, 0.42),
+       0px -4px 4px rgba(0, 0, 0, 0.42);        /* 文字の影 */
+}
+
+.font-2 {
+  display        : inline-block;
+  margin-top     : 10vh;
+  color          : #ffffff;            /* 文字の色 */
+  font-size      : 66pt;               /* 文字のサイズ */
+  letter-spacing : 8px;                /* 文字間 */
+  text-shadow    :
+       4px  4px 4px rgba(0, 0, 0, 0.42),
+      -4px  4px 4px rgba(0, 0, 0, 0.42),
+       4px -4px 4px rgba(0, 0, 0, 0.42),
+      -4px -4px 4px rgba(0, 0, 0, 0.42),
+       4px  0px 4px rgba(0, 0, 0, 0.42),
+       0px  4px 4px rgba(0, 0, 0, 0.42),
+      -4px  0px 4px rgba(0, 0, 0, 0.42),
+       0px -4px 4px rgba(0, 0, 0, 0.42);        /* 文字の影 */
+}
+
+
+.success-title{
+	font-size: 65px;
+	color: skyblue;
+}
+
+
+
+.befor{
+	padding-top: 5vh;
+	width: 50%;
+	height: 100vh;
+	text-align: center;
+	float: left;
+}
+
+
+.befor-img{
+	margin-top: 30vh;
+	width:30vw;
+	height:20vh;
+}
+
+
+.after{
+	float: left;
+	width: 50%;
+	height: 100vh;
+	padding-top: 5vh;
+	text-align: center;
+}
+
+.after-img{
+	margin-top: 5vh;
+	width:45vw;
+	height: 40vw;
+}
+
+.success-date{
+	font-size: 20px;
+
+}
+
+.section h2{
+	text-align: center;
+	padding-top: 5vh;
+	font-size: 60px;
+}
+
+.section:nth-child(odd){
+	background-color: #f5f5f5;
+}
+
+
+.profile img{
+	float: left;
+	width:auto;
+	height:50vh;
+	margin-top: 15vh;
+	margin-left: 10vw;
+	margin-right: 5vw;
+	border-radius: 50%;
+}
+
+.profile-text{
+	float:left;
+	width:50%;
+	margin-top:25vh;
+	text-align: center;
+	line-height: 5vh;
+	font-size: 25px;
+}
+
+.btn-profile{
+	width: 40vw;
+	height: 10vh;
+	border-radius: 5px;
+	background-color: gray;
+	box-shadow: 0px 10px #000;
+	margin:0 auto;
+	color:#fff;
+	font-size: 35px;
+	padding-top: 15px;
+	margin-top: 5vh;
+}
+
+.btn-profile:active{
+	box-shadow: none;
+	position: relative;
+	top:10px;
+}
+
+
+
+.text{
+	float:left;
+	width:50%;
+	margin-top:20vh;
+	padding-left: 4vw;
+	text-align: center;
+	line-height: 7vh;
+	font-size: 30px;
+}
+
+.youtube{
+	float: left;
+	width:50%;
+	margin-top:20vh;
+	padding-left: 2vw;
+}
+
+iframe {
+	width:672px;
+    height:378px;
+}
+
+.blog-anchor{
+	color:blue;
+	text-decoration: underline;
+}
+
+/************************************
+** Twitterボックス
+************************************/
+.p-twitter-box{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    margin:2rem auto;
+    max-width:500px;
+    width:100%;
+}
+.p-twitter-box .p-twitter-title{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 2em 0;
+    font-size: 12px;
+}
+.p-twitter-box .twitter-tweet{
+    margin:0 !important;
+}
+.p-twitter-box p{
+    display:none;
+}
+/* ブルー */
+.p-twitter-box .p-twitter-blue{
+	    background: #1da1f2;
+}
+
+.tweets{
+	margin-left: 3vw;
+}
+
+.tweet{
+	float: left;
+	margin-left: 3vw;
+}
+
+.link-buttons{
+	width: 100%;
+	padding: 5vh 2.5vw;
+
+}
+
+.btn-link{
+	float: left;
+	width: 30vw;
+	height: 25vh;
+	background-size: cover;
+	box-shadow: 8px 10px #C0C0C0;
+	margin-left: 1vw;
+}
+
+.btn-link:active{
+	position: relative;
+	top: 8px;
+	left: 10px;
+	box-shadow: none;
+}
+
+
+.topic{
+	width: 30vw;
+	height: 25vh;
+	padding-top: 8vh;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+}
+
+.topic:active{
+	background-color: rgba(255,255,255,0.6);
+	color: gray;
+}
+
+.buttons-upper{
+	height: 30vh;
+}
+
+.buttons-under{
+	margin-top: 5vh;
+}
+
+.blog-btn{
+	background-image: url(img/blog-link.png);
+}
+
+.youtube-btn{
+	background-image: url(img/youtube-link.png);
+}
+
+.community-btn{
+	background-image: url(img/community-link.jpg);
+}
+
+.twitter-btn{
+	background-image: url(img/twitter-link.png);
+}
+
+.instagram-btn{
+	background-image: url(img/instagram-link.png);
+}
+
+.book-btn{
+	background-image: url(img/book-link.jpg);
+}
+
+footer{
+	width: 100%;
+	height: 5vh;
+	background-color: #000;
+	text-align: center;
+	padding-top: 1vh;
+}
+
+footer p{
+	color:#fff;
+	font-size: 20px;
+}
+
+
+/*--------------------------------------------------*/
+
+@media screen and (max-width:1300px){
+
+
+#header{
+	height: 20vh;
+}
+
+#header img{
+	width:60vw;
+	height: 16vh;
+	margin-top:2vh;
+}
+
+.top{
+	height:80vh;
+}
+
+.top img{
+	float: left;
+	width:30vw;
+	height: 70vh;
+	margin-top: 5vh;
+	margin-left: 10vw;
+}
+
+.font-top{
+	margin-top:20vh;
+	float: left;
+	width:50vw;
+	text-align :center;
+}
+
+.font-top p{
+	font-size: 40px;
+}
+
+.success-title{
+	font-size: 45px;
+	color:#6dccff;
+}
+
+
+
+.befor{
+	padding-top: 5vh;
+	width: 50%;
+	height: 100vh;
+}
+
+
+.befor-img{
+	margin-top: 10vh;
+	width:45vw;
+	height:auto;
+}
+
+
+.after{
+	float: left;
+	width: 50%;
+	height: 100vh;
+	padding-top: 5vh;
+}
+
+.after-img{
+	margin-top: 2vh;
+	width:45vw;
+	height: auto;
+}
+
+.success-date{
+	font-size: 15px;
+
+}
+
+.section h2{
+	text-align: center;
+	padding-top: 5vh;
+	font-size: 40px;
+}
+
+.profile img{
+	margin-top: 5vh;
+}
+
+.profile-text{
+	float:left;
+	width:50%;
+	margin-top:5vh;
+	text-align: center;
+	line-height: 6vh;
+	font-size: 20px;
+}
+
+.btn-profile{
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+
+.text{
+	float:left;
+	width:50%;
+	margin-top:10vh;
+	padding-left: 4vw;
+	text-align: center;
+	line-height: 7vh;
+	font-size: 25px;
+}
+
+.youtube{
+	float: left;
+	width:50%;
+	margin-top:10vh;
+	padding-left: 2vw;
+}
+
+iframe {
+	width:40vw;
+    height:50vh;
+}
+
+.result{
+	height: 160vh;
+}
+
+.tweet:nth-child(1){
+	display: none;
+}
+
+.tweet{
+	float: left;
+	margin-left: 3vw;
+	width: 45vw;
+}
+
+
+
+.topic{
+	font-size: 30px;
+}
+
+
+
+footer{
+	height: 10vh;
+}
+
+
+}
+
+
+/*--------------------------------------------------*/
+
+@media screen and (max-width:500px) {
+
+
+#header{
+	height: 10vh;
+}
+
+#header img{
+	width:80vw;
+	height: 5vh;
+}
+
+.top{
+	height:90vh;
+}
+
+
+.top img{
+	width: 90vw;
+	margin-top:8vh;
+	position: absolute;
+}
+
+.font-top{
+	position: absolute;
+	width: 90vw;
+	margin: 50vh 5vw;
+}
+
+.font-top p{
+	font-size: 40px;
+}
+
+.befor{
+	padding-top: 1vh;
+	float: none;
+	width: 100%;
+	height: 40vh;
+}
+
+.success-title{
+	font-size: 40px;
+}
+
+.befor-img{
+	margin-top: 2vh;
+	width: 90vw;
+}
+
+.after{
+	width: 100%;
+	height: 60vh;
+}
+
+.after-img{
+	width: 90vw;
+	height: auto;
+}
+
+.success-date{
+	font-size: 20px;
+}
+
+.section h2{
+	padding-top: 2vh;
+	font-size: 30px;
+}
+
+.profile img{
+	float: none;
+	width: 70vw;
+	height: auto;
+	margin:2vh 15vw 0 15vw;
+
+}
+
+.profile-text{
+	float: none;
+	font-size: auto;
+	margin:1vh 2.5vw 0 2.5vw;
+	width: 95vw;
+}
+
+.btn-profile{
+	width: 90vw;
+	height: 5vh;
+	margin:0 auto;
+	color:#fff;
+	font-size: 20px;
+	padding-top: 2px;
+	margin-top: 2vh;
+}
+
+.text{
+	float:none;
+	width:90%;
+	margin:5vh 5vw 0 5vw;
+	padding-left: 0vw;
+	text-align: center;
+	line-height: 5vh;
+	font-size: 20px;
+}
+
+.youtube{
+	float: none;
+	width:90%;
+	margin:8vh 5vw 0 5vw;
+	padding-left: 0vw;
+}
+
+iframe {
+	width:90vw;
+    height:30vh;
+}
+
+.result{
+	height: 220vh;
+}
+
+.result h2{
+	font-size: 35px;
+}
+
+
+.tweet{
+	width: 90%;
+	height: 70vh;
+	margin-top:2vh;
+}
+
+
+.tweet:nth-child(1){
+	display: block;
+}
+
+.links{
+	height: 180vh;
+}
+
+.links h2{
+	font-size: 28px;
+}
+
+.buttons-upper{
+	height:66vh;
+	margin: 0;
+}
+
+.link-buttons{
+	width: 100%;
+	padding: 5vh 0vw;
+
+}
+
+
+.btn-link{
+	float: none;
+	width: 90vw;
+	height: 20vh;
+	margin-left: 0vw;
+	margin: 8vw 5vw 0 5vw;
+}
+
+.topic{
+	width: 90vw;
+	height: 20vh;
+	padding-top: 8vh;
+	font-size: 40px;
+}
+
+
+
+}
